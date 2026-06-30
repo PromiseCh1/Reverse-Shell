@@ -1,0 +1,2 @@
+cd D:\Backdoor-Project\
+powershell -ExecutionPolicy Bypass -File test_payload.ps1
