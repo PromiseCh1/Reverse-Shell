@@ -1,11 +1,11 @@
-# 🔁 Reverse Shell & Persistence Toolkit
+#  Reverse Shell & Persistence Toolkit
 
 > A stealthy, persistent C2 framework for Windows – built for red‑team exercises and cybersecurity education.  
 > Provides remote shell, screen streaming, WiFi control, network blocking, DNS flush, and keylogging – with multi‑layer persistence and evasion.
 
 ---
 
-## 🧠 Features
+##  Features
 
 -  **Interactive Shell** – Run any PowerShell/CMD command.
 -  **Live Screen Streaming** – Continuous screenshots (press `q` to stop).
@@ -21,7 +21,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 [Attacker]  <──TCP───>  [Victim]
@@ -58,7 +58,7 @@ Reverse-Shell/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Attacker (Kali)
 ```bash
@@ -141,4 +141,4 @@ MIT – free to use, modify, and distribute with attribution.
 ---
 
 *Happy (ethical) hacking!* 🚀
-Author: Promiseeeeeeee!!!
+Author : Promiseeeeeeee!!!
