@@ -7,17 +7,17 @@
 
 ## 🧠 Features
 
-- 💻 **Interactive Shell** – Run any PowerShell/CMD command.
-- 🖥️ **Live Screen Streaming** – Continuous screenshots (press `q` to stop).
-- 📸 **Single Screenshot** – Capture one frame.
-- 📶 **WiFi Control** – Turn on/off, weaken, or fix.
-- 🔒 **Internet Block** – Block all outbound traffic via firewall.
-- 🔓 **Internet Unblock** – Remove the rule.
-- 🧹 **DNS Flush** – Clear DNS cache.
-- ⌨️ **Keylogger** – Global hook (start/stop/dump/clear).
-- 🧩 **Multi‑Layer Persistence** – Registry, Scheduled Tasks, Startup Folder.
-- 🕵️ **Stealth** – AMSI bypass, Defender exclusion, hidden VBS launcher.
-- 🔄 **Auto‑Reconnect** – Retries every 10‑30 sec.
+-  **Interactive Shell** – Run any PowerShell/CMD command.
+-  **Live Screen Streaming** – Continuous screenshots (press `q` to stop).
+-  **Single Screenshot** – Capture one frame.
+-  **WiFi Control** – Turn on/off, weaken, or fix.
+-  **Internet Block** – Block all outbound traffic via firewall.
+-  **Internet Unblock** – Remove the rule.
+-  **DNS Flush** – Clear DNS cache.
+-  **Keylogger** – Global hook (start/stop/dump/clear).
+-  **Multi‑Layer Persistence** – Registry, Scheduled Tasks, Startup Folder.
+-  **Stealth** – AMSI bypass, Defender exclusion, hidden VBS launcher.
+-  **Auto‑Reconnect** – Retries every 10‑30 sec.
 
 ---
 
