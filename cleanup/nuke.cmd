@@ -1,5 +1,5 @@
 @echo off
-title Complete Backdoor Removal
+title Complete Backdoor Removal (Aggressive)
 echo [*] Removing all traces of WindowsUpdateService...
 
 :: Stop all PowerShell processes (except this one)

